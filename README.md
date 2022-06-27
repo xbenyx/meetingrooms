@@ -6,8 +6,10 @@ This is a standard Node.js project, so you just need to run `npm ci` to install 
 
 We need to configure the Raspberry Pi in Kiosk Mode. 
 
-1) Open Terminal in Raspberry Pi (Update and Upgrade) -> sudo apt update && sudo apt install rpi-update
+1) Open Terminal in Raspberry Pi (Update and Upgrade)
 
+    sudo apt update && sudo apt install rpi-update
+    
 
 
 @lxpanel --profile LXDE-pi
@@ -20,7 +22,7 @@ We need to configure the Raspberry Pi in Kiosk Mode.
 @xset s off  # Disabled screensaver
 @xset /dpms   # Disabled DPMS 
 @xset s noblank # Dont blank the video device
-@chromium-browser --noerrors --disable-session-crashed-bubble --disable-infobars --kiosk --incognito http://192.168.1.20:8000/lounge    #If page is open in incognito mode cache is ignored
+@chromium-browser --noerrors --disable-session-crashed-bubble --disable-infobars --kiosk --incognito http://localhost:8000/lounge    #If page is open in incognito mode cache is ignored
 
 ## Setup & Config - NodeJs
 
