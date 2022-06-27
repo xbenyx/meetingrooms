@@ -12,9 +12,9 @@ We need to configure the Raspberry Pi in Kiosk Mode.
     sudo apt install rpi-update
 
 2) Launch chromium in kiosk mode 
-2.1)    Path /home/pi/.config/lxsession/LXDE-pi/autostart
+2.1)  sudo  Path /home/pi/.config/lxsession/LXDE-pi/autostart
 
-Ex: in a README.md :   
+   
 
     @lxpanel --profile LXDE-pi
     @pcmanfm --desktop --profile LXDE-pi
@@ -27,11 +27,8 @@ Ex: in a README.md :
     @chromium-browser --noerrors --disable-session-crashed-bubble --disable-infobars --kiosk --incognito http://localhost:8000/lounge    #If page is open in incognito mode cache is ignored
 
 
-
-
 ## Setup & Config - NodeJs
 
-1)
 1) npm install
 2) npm start
 
