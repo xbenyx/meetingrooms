@@ -9,8 +9,10 @@ We need to configure the Raspberry Pi in Kiosk Mode.
 1) Open Terminal in Raspberry Pi (Update and Upgrade)
 
     sudo apt update && sudo apt install rpi-update
-    
 
+
+
+    
 
 @lxpanel --profile LXDE-pi
 @pcmanfm --desktop --profile LXDE-pi
