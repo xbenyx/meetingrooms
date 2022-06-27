@@ -31,17 +31,14 @@ Copy details below :
 ## Setup & Config - NodeJs
 
 1) npm install
-2) npm start
+2) We use Pm2 to run nodejs in the background ->  npm install PM2@latest -g
+3) pm2 start app.js or pm2 start npm -- start
+4) sudo pm2 startup
+5) pm2 startup systemd 
 
-add 4 spaces infront of the text 
-and github shows a copy button to copy that block
+## Setup & Config - NodeRed
 
-Ex: in a README.md :   
-
-    sudo apt update
-    sudo apt install snapd
-  
-Now The above code has the copy button over it in Github  
+https://github.com/Winor/RPiLC
 
 
 
