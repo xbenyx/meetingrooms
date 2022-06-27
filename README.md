@@ -25,19 +25,8 @@ Ex: in a README.md :
     @xset /dpms   # Disabled DPMS 
     @xset s noblank # Dont blank the video device
     @chromium-browser --noerrors --disable-session-crashed-bubble --disable-infobars --kiosk --incognito http://localhost:8000/lounge    #If page is open in incognito mode cache is ignored
-  
-Now The above code has the copy button over it in Github  
-    
 
-@lxpanel --profile LXDE-pi
-@pcmanfm --desktop --profile LXDE-pi
-@xscreensaver -no-splash
-@point-rpi
 
-@xset s off  # Disabled screensaver
-@xset /dpms   # Disabled DPMS 
-@xset s noblank # Dont blank the video device
-@chromium-browser --noerrors --disable-session-crashed-bubble --disable-infobars --kiosk --incognito http://localhost:8000/lounge    #If page is open in incognito mode cache is ignored
 
 
 ## Setup & Config - NodeJs
