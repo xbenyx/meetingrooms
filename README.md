@@ -39,6 +39,23 @@ Copy details below :
 
 ## Setup & Config - NodeJs
 
+Before run the commands, we need to create 2 files inside the api foldes; rooms-client.json and rooms.json
+
+### rooms-client.json
+
+Go to the [Google Developer Console](https://console.developers.google.com/) and create a new Project.
+
+### rooms.json
+Structure is as below. 
+
+    {
+    "lounge": {"name": "Lounge", "slug": "lounge", "position": "right", "id": "this_is_your_api_calendar_email@group.calendar.google.com"}
+    }
+
+
+
+
+
 1) npm install
 2) We use Pm2 to run nodejs in the background ->  npm install PM2@latest -g
 3) pm2 start app.js or pm2 start npm -- start
