@@ -15,7 +15,7 @@ We need to configure the Raspberry Pi in Kiosk Mode.
 2.1)  sudo  Path /home/pi/.config/lxsession/LXDE-pi/autostart
 
    
-
+    
     @lxpanel --profile LXDE-pi
     @pcmanfm --desktop --profile LXDE-pi
     @xscreensaver -no-splash
