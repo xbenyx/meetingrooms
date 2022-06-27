@@ -14,8 +14,6 @@ We need to configure the Raspberry Pi in Kiosk Mode.
 2) Launch chromium in kiosk mode 
 2.1)    Path /home/pi/.config/lxsession/LXDE-pi/autostart
 
-and github shows a copy button to copy that block
-
 Ex: in a README.md :   
 
     @lxpanel --profile LXDE-pi
