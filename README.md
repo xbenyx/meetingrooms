@@ -65,11 +65,16 @@ Structure is as below.
 
 Install NodeRed
 1) Go to folder nodered in this project and change format to json then upload file to nodered
-2) Start Nodered as autostart
-
-
+2) Start Nodered as autostart:   
+  
     sudo systemctl enable nodered.service
     sudo systemctl disable nodered.service
+    
+
+
+
+    
+    
 
 
     
