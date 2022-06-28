@@ -39,6 +39,11 @@
     "nodemon": "^1.19.0",
     "nwb": "^0.25.2"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "author": "",
   "license": "MIT",
   "repository": ""

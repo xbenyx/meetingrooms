@@ -10,6 +10,7 @@ import CurrentEvent from './components/CurrentEvent/CurrentEvent'
 import Event from './components/Event/Event'
 import EventList from './components/EventList/EventList'
 import TimelineEvent from './components/TimelineEvent/TimelineEvent'
+import * as fs from 'fs';
 
 moment.locale('en');
 
@@ -108,6 +109,19 @@ export default class App extends Component {
       }
     }
 
+
+    // var request = require('request');
+    // var options = {
+    //   'method': 'GET',
+    //   'url': '192.168.2.231:1880/green',
+    //   'headers': {
+    //   }
+    // };
+    // request(options, function (error, response) {
+    //   if (error) throw new Error(error);
+    //   console.log(response.body);
+    // });
+        
     eventData.available = eventData.available || false;
     eventData.summary = eventData.available || 'Flash Meeting';
     eventData.start = moment(eventData.start).format();
@@ -124,7 +138,7 @@ export default class App extends Component {
       ...(schedule.slice(eventIndex))
     ];
     this.updateState(newSchedule, true);
-
+    
     // Reschedule the fetchInterval so we don't get an update while creating the event. 
     // The booking takes a few seconds, so it's prone to race conditions.
     clearInterval(this.fetchInterval);
@@ -197,7 +211,7 @@ export default class App extends Component {
     const { name, position, isAvailable, isLoading, currentEvent, prevEvent, nextEvent, currentTime } = this.state
 
     if( isLoading ) {
-      return <div className="App loading">Cargando...</div>
+      return <div className="App loading">Loading...</div>
     }
 
     return (

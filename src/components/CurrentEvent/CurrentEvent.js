@@ -65,7 +65,7 @@ export default class CurrentEvent extends PureComponent {
 
     return (
       <div className="CurrentEventred">
-  
+ 
         {now.isSame(event.end, 'day') ?
           remainingMinutes < 60 ?
             remainingMinutes > 0 ?

@@ -68,20 +68,10 @@ Install NodeRed
 2) Start Nodered as autostart:   
   
     sudo systemctl enable nodered.service
-    sudo systemctl disable nodered.service
-    
 
+Http path to turn on red light is localhost:1880/red and green light is localhost:1880/green
 
-
-    
-    
-
-
-    
-    
-
-
-https://github.com/Winor/RPiLC
+3)
 
 
 
