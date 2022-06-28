@@ -68,7 +68,7 @@ Install NodeRed
 2) Start Nodered as autostart
 
     sudo systemctl enable nodered.service
-    
+    sudo systemctl disable nodered.service
 
 
 https://github.com/Winor/RPiLC
