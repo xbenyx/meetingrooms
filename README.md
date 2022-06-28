@@ -39,7 +39,7 @@ Copy details below :
 
 ## Setup & Config - NodeJs
 
-Before run the commands, we need to create 2 files inside the api foldes; rooms-client.json and rooms.json
+Before run the commands, we need to create 2 files inside the api folder; rooms-client.json and rooms.json
 
 ### rooms-client.json
 
@@ -51,8 +51,6 @@ Structure is as below.
     {
     "lounge": {"name": "Lounge", "slug": "lounge", "position": "right", "id": "this_is_your_api_calendar_email@group.calendar.google.com"}
     }
-
-
 
 
 
