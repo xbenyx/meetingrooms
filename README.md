@@ -71,7 +71,5 @@ Install NodeRed
 
 Http path to turn on red light is localhost:1880/red and green light is localhost:1880/green
 
-3)
-
 
 
