@@ -25,7 +25,7 @@ We need to configure the Raspberry Pi in Kiosk Mode.
 
 
    
-Copy details below :   
+Copy the details below :   
   
     @lxpanel --profile LXDE-pi
     @pcmanfm --desktop --profile LXDE-pi
