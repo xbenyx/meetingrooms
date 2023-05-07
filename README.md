@@ -15,16 +15,14 @@ This is a standard Node.js project, just run `npm ci` to install the dependencie
 
 We need to configure the Raspberry Pi in Kiosk Mode. 
 
-1) Open Terminal in Raspberry Pi (Update and Upgrade)
+1. Open Terminal in Raspberry Pi and update
 
     sudo apt update
     sudo apt install rpi-update
 
-2) Launch chromium in kiosk mode 
-2.1)  sudo  Path /home/pi/.config/lxsession/LXDE-pi/autostart or sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+2. Launch chromium in kiosk mode 
+3. sudo  Path /home/pi/.config/lxsession/LXDE-pi/autostart or sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 
-
-   
 Copy the details below :   
   
     @lxpanel --profile LXDE-pi
@@ -53,13 +51,13 @@ Structure is as below.
     "lounge": {"name": "Lounge", "slug": "lounge", "position": "right", "id": "this_is_your_api_calendar_email@group.calendar.google.com"}
     }
 
-1) Go to folder usr/local then git clone project
-1) sudo apt-get install -y nodejs
-1) sudo npm install
-2) We use Pm2 to run nodejs in the background ->  npm install PM2@latest -g
-3) pm2 start server.js 
-4) pm2 startup
-5) pm2 startup systemd 
+1. Go to folder usr/local then git clone project
+2. sudo apt-get install -y nodejs
+3. sudo npm install
+4. We use Pm2 to run nodejs in the background ->  npm install PM2@latest -g
+5. pm2 start server.js 
+6. pm2 startup
+7. pm2 startup systemd 
 
 ## Setup & Config - NodeRed
 
