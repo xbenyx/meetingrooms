@@ -20,7 +20,7 @@ We need to configure the Raspberry Pi in Kiosk Mode.
     sudo apt update
     sudo apt install rpi-update
 
-2. Launch chromium in kiosk mode 
+2. Launch chromium browser in kiosk mode 
 3. sudo  Path /home/pi/.config/lxsession/LXDE-pi/autostart or sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 
 Copy the details below :   
