@@ -38,7 +38,7 @@ Copy the details below :
 
 ## Setup & Config - NodeJs
 
-Before run the commands, we need to create 2 files inside the api folder; rooms-client.json and rooms.json
+Before running the commands, we need to create 2 files inside the api folder; rooms-client.json and rooms.json
 
 ### rooms-client.json
 
