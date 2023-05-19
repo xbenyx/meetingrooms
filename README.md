@@ -59,7 +59,7 @@ Structure is as below.
 6. pm2 startup
 7. pm2 startup systemd 
 
-## Setup & Config - NodeRed
+## Setup & Config - use of NodeRed
 
 Install NodeRed
 1) Go to folder nodered in this project and change format to json then upload file to nodered
