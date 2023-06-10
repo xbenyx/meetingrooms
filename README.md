@@ -67,7 +67,7 @@ Install NodeRed
   
     sudo systemctl enable nodered.service
 
-Http path to turn on red light is localhost:1880/red and green light is localhost:1880/green
+Http path to turn on red light is located at localhost:1880/red and green light is localhost:1880/green
 
 
 
