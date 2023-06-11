@@ -4,7 +4,7 @@ This is a standard Node.js project, just run `npm ci` to install the dependencie
 
 ![Farmers Market Finder - Animated gif demo](demo/demo.gif)
 
-## Materials
+## Components
 
 - 1 x Raspberry Pi 4GB [Link to Pimoroni](https://shop.pimoroni.com/products/raspberry-pi-4-essentials-kit?variant=39850460119123)
 - 1 x Wall Mount Bracket [Link to Amazon](https://www.amazon.co.uk/dp/B07PDG7PRL/ref=sspa_dk_detail_4?psc=1p13NParams&smid=A3G1GPKDFEJLJM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNEI1RDdWNlZaNjJRJmVuY3J5cHRlZElkPUEwMTY2ODM5MkhEMEMzU01OUVk3RiZlbmNyeXB0ZWRBZElkPUEwNjM4MTE3M0dXOVZKWlZVNVlJWSZ3aWRnZXROYW1lPXNwX2RldGFpbDImYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
